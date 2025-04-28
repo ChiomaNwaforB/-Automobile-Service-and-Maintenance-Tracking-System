@@ -3,22 +3,34 @@
 Industry: Automobile
 
 📌 Project Overview
+
 This project involved designing a comprehensive database system to track vehicle service history, parts inventory, mechanic performance and customer satisfaction for Elegant automobile service center. The system was built using SQL for database design and Power BI for analytics and reporting. Key components include:
 
 •	🗃️ Database Design: Created relational tables (Vehicles, Service_Records, Mechanics, Parts_Inventory, Service_Types, Customers, Feedbacks) with proper schema relationships.
+
 •	⌨️ Manual Data Entry: Populated tables with realistic service records, parts usage and customer feedback.
+
 •	📊 Power BI Reporting: Developed interactive dashboards to analyze maintenance trends, parts inventory, mechanic efficiency and customer satisfaction.
+
 •	🔢 DAX Measures & Calculated Columns: Implemented advanced calculations to derive insights on service frequency, mechanic performance and inventory management.
 
 🎯 Project Goal
+
 The primary objective was to optimize service center operations by:
+
 •	Tracking vehicle maintenance history to predict service needs.
+
 •	Managing parts inventory efficiently with automated reorder alerts.
+
 •	Evaluating mechanic performance based on service quality and efficiency.
+
 •	Analyzing customer feedback to improve service satisfaction.
 
 📊 Dashboard
+
 The dashboard was created using Power Bi
+
+![Service Dashboard](Auto.png)
 
 
 
@@ -73,9 +85,11 @@ The dashboard was created using Power Bi
 •	Offer service packages for frequent customers to improve retention.
 
 ✅ Conclusion
+
 This project successfully transformed raw service data into actionable insights using SQL and Power BI. By tracking maintenance trends, optimizing parts inventory and evaluating mechanic performance, the automobile service center can enhance operational efficiency and customer satisfaction. Future enhancements could include integrating real-time IoT sensors for vehicle diagnostics and AI-driven predictive maintenance.
 ________________________________________
 🛠️ Tools Used: SQL (Database Design), Power BI (Visualization & DAX), Excel (Data Entry)
+
 💡 Key Skills Demonstrated: Data Modeling, DAX Measures, Dashboarding, Business Intelligence, Performance Analytic
 
 
