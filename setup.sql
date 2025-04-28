@@ -4,8 +4,7 @@ CREATE TABLE VEHICLES (
     Model VARCHAR(50),
     Year INT,
     VIN VARCHAR(17),
-    Customer_ID INT
-);
+    Customer_ID INT);
 
 INSERT INTO VEHICLES (Vehicle_ID, Make, Model, Year, VIN, Customer_ID) VALUES
 (1, 'Toyota', 'Camry', 2020, '1HGBH41JXMN109186', 101),
@@ -48,8 +47,7 @@ CREATE TABLE SERVICE_RECORD (
     Mechanic_ID INT,
     Parts_Used VARCHAR(50),
     Feedback_ID INT,
-    FOREIGN KEY (Vehicle_ID) REFERENCES Vehicles(Vehicle_ID)
-);
+    FOREIGN KEY (Vehicle_ID) REFERENCES Vehicles(Vehicle_ID));
 
 INSERT INTO SERVICE_RECORD (Record_ID, Vehicle_ID, Service_Date, Service_Type_ID, Mechanic_ID, Parts_Used, Feedback_ID) VALUES
 (1, 1, '2023-01-15', 1, 1, '1,2', 1),
