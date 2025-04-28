@@ -110,6 +110,15 @@ ________________________________________
 🛠️ **Tools Used:** SQL (Database Design), Power BI (Visualization & DAX), Excel (Data Entry)
 
 
-💡 **Key Skills Demonstrated:** Data Modeling, DAX Measures, Dashboarding, Business Intelligence, Performance Analytic
+💡 **Key Skills Demonstrated:** Data Modeling, DAX Measures, Dashboarding, Business Intelligence, Performance Analytic## Database Setup.
+
+
+🧾 **SQL Script**
+
+
+To view the full database setup, see [setup.sql](setup.sql).
+
+
+   
 
 
